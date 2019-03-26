@@ -7,6 +7,6 @@ To run the code, change the file path in InteractiveDirectVolRendering.py and ru
 
 
 # Example Results
-When given a MR 3D iamge, the program produces a histogram of the input image, an interactive transfer function and a result image. From the given results, we can see that the inner organ(brain) is visible, which shows this implementation is working. However, the quality of the result heavily depends on the setting of the Transfer Function, namely the setting of the interactive plot shown as below. In orther words, finding a good transfer function is significant for obtaining a good result.
+When given a MR 3D iamge, the program produces a histogram of the input image, an interactive transfer function and a result image. From the given results(who have different transfer functions), we can see that the inner organ(brain) is visible, which shows this implementation is working. However, the quality of the result heavily depends on the setting of the Transfer Function, namely the setting of the interactive plot shown as below. In orther words, finding a good transfer function is significant for obtaining a good result.
 
 <img src="https://user-images.githubusercontent.com/47189577/55031022-f2370600-500d-11e9-9c4a-77ddc2e7a2db.png" width="192" height="256"> <img src="https://user-images.githubusercontent.com/47189577/55031036-f5ca8d00-500d-11e9-9c27-3f50382aa52b.png" width="192" height="256"> <img src="https://user-images.githubusercontent.com/47189577/55031041-f95e1400-500d-11e9-9a34-d69b296eb845.png" width="60%" height="60%">
