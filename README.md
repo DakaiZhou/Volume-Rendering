@@ -3,7 +3,7 @@ It is a demo of user interactive volume rendering by applying ray casting algori
 
 Since the goal of this work is to understand the algorithm, the code does not contain any image processing packages such as OpenGL, OpenCV, etc.
 
-To run the code, change the file path in InteractiveDirectVolRendering.py
+To run the code, change the file path in InteractiveDirectVolRendering.py and run this file.
 
 
 # Example Result
