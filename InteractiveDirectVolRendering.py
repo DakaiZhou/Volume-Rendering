@@ -4,7 +4,7 @@ import DicomSlice2Vol as DV
 import DirectVolRendering as DVR
 
 
-vol = DV.DicomSlice2Vol('MPRAGE_PAT2_ISO/*')
+vol = DV.DicomSlice2Vol('file/path/')
 vol = np.rot90(vol,1,(0,2))
 xmax = np.max(vol)
 xmin = np.min(vol)
