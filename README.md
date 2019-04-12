@@ -6,7 +6,7 @@ Since the goal of this work is to understand the algorithm, the code does not co
 To run the code, change the file path in InteractiveDirectVolRendering.py and run this file.
 
 
-# Example Results
+# Results from MR image(better to use CT image)
 Due to the lack of CT iamge, I used MR image as input. We should notice that MR image is not suitable for volume rendering, but CT image is.
 
 When given a MR 3D iamge, the program produces a histogram of the input image, an interactive transfer function and a result image. From the given results(who have different transfer functions), we can see that the inner organ(brain) is visible, which shows this implementation is working. However, the quality of the result heavily depends on the setting of the Transfer Function, namely the setting of the interactive plot shown as below. In orther words, finding a good transfer function is significant for obtaining a good result. The result can be improved significantly if CT image as the input image.
